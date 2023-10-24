@@ -63,3 +63,4 @@ def ask_question(question, reset_chat=False, edit_last_question=False):
 
     # Print and return the assistant's response
     print(content)
+    return content
